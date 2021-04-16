@@ -1,6 +1,5 @@
         header{
      		text-align: center;
-      		background: red;
       		padding: 20px;
    	}
        	#navigation>li{
@@ -8,15 +7,15 @@
        	}
        	#navigation{
        		display: flex;
-			flex-flow: row wrap;
-			justify-content: flex-end;
-			background: white;
+		flex-flow: row wrap;
+		justify-content: flex-end;
+		background: white;
        	}
        	#navigation a{
        		text-decoration: none;
-			display: block;
-			padding: 1em;
-			color: black;
+		display: block;
+		padding: 1em;
+		color: black;
        	}
        	header{
        		background: black;
@@ -82,7 +81,6 @@
                 flex-wrap: nowrap;
                 justify-content: space-around;
                 text-align: center;
-                
                 padding: 40px;
                 margin: 0 auto;
         }
