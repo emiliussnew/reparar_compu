@@ -1,0 +1,91 @@
+        header{
+     		text-align: center;
+      		background: red;
+      		padding: 20px;
+   	}
+       	#navigation>li{
+       		list-style: none;
+       	}
+       	#navigation{
+       		display: flex;
+			flex-flow: row wrap;
+			justify-content: flex-end;
+			background: white;
+       	}
+       	#navigation a{
+       		text-decoration: none;
+			display: block;
+			padding: 1em;
+			color: black;
+       	}
+       	header{
+       		background: black;
+       	}
+       	#banner{
+       		color: white;
+       		width: 80%;
+       		margin: 0 auto;
+       		border: solid white 7px;
+       		border-radius: 50px;	
+       	}
+       	#banner h1{
+       		font-size: 64px;
+       		border: 4px white;
+       	}
+       	#telefono{
+       		background: white;
+       		text-align: center;
+       		padding: 20px;
+       	}
+       	#telefono {
+       		font-size: 36px;
+       		color: #3c3c3c;
+       	}
+       	#telefono p a{
+       		color: #3c3c3c;
+       	}
+       	.gris{
+       		background: #cecece;
+       	}
+       	#descripcion{
+       		text-align: center;
+       		padding: 20px;
+       		width: 80%;
+       		margin: 0 auto;
+       	}
+       	#descripcion p{
+       		font-size: 24px;
+       	}
+       	#redes{
+       		padding: 40px;
+       		width: 80%;
+       		margin: 0 auto;
+       		display: flex;
+       		flex-wrap: nowrap;
+		justify-content: space-around;
+		text-align: center;
+       	}
+       	.conocenos img{
+       		width: 80%;
+       	}
+        #redes p{
+                font-size: 40px;
+                color: black;
+                margin: 0;
+        }
+        a{
+                color: black;
+        }
+        footer{
+                background: black;
+                display: flex;
+                flex-wrap: nowrap;
+                justify-content: space-around;
+                text-align: center;
+                
+                padding: 40px;
+                margin: 0 auto;
+        }
+        footer a{
+                color: white;
+        }
